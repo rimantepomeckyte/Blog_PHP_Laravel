@@ -5,14 +5,16 @@ metoda susikurti addPost kaip suprantu BlogControllery-->
     <div class="row justify-content-center mb-5">
         <h2>New Post</h2>
     </div>
-    <form method="post">
+    @include('blog_theme/_partials/errors')
+    <form method="post" action="/store">
+        {{csrf_field()}}
         <div class="form-group">
             <label for="title">Title</label>
-            <input type="title" class="form-control" id="title" placeholder="Post title">
+            <input type="text" name="title" class="form-control" id="title" placeholder="Post title">
         </div>
         <div class="form-group">
             <label for="category">Category</label>
-            <select class="form-control" id="category">
+            <select class="form-control" id="category" name="category">
                 <option value="" disabled selected>Choose category</option>
                 @foreach($options as $option)
                     <option value={{$option}}>{{$option}}</option>
@@ -21,7 +23,7 @@ metoda susikurti addPost kaip suprantu BlogControllery-->
         </div>
         <div class="form-group">
             <label for="content">Your post content:</label>
-            <textarea class="form-control" id="content" rows="5"></textarea>
+            <textarea name="body" class="form-control" id="content" rows="5"></textarea>
         </div>
         <div class="form-group">
             <label for="upload">Choose image:</label>

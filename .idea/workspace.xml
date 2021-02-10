@@ -20,20 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65f0a8b5-afd6-4e70-92d6-0d13a9f6fac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/add-category.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/bycategory.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/categories-list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_08_110145_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_110145_create_posts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/_partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/_partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/_partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/_partials/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/pages/add-post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/add-post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +181,8 @@
       <workItem from="1612775489415" duration="14186000" />
       <workItem from="1612856104673" duration="22221000" />
       <workItem from="1612899953044" duration="8551000" />
-      <workItem from="1612942586712" duration="20331000" />
+      <workItem from="1612942586712" duration="21748000" />
+      <workItem from="1612975320728" duration="683000" />
     </task>
     <servers />
   </component>

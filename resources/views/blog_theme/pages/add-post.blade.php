@@ -6,7 +6,7 @@ metoda susikurti addPost kaip suprantu BlogControllery-->
         <h2>New Post</h2>
     </div>
     @include('blog_theme/_partials/errors')
-    <form method="post" action="/store">
+    <form method="post" action="/store" enctype="multipart/form-data"><!--encytype kad moketu atskirti faila-->
         {{csrf_field()}}
         <div class="form-group">
             <label for="title">Title</label>
@@ -27,7 +27,7 @@ metoda susikurti addPost kaip suprantu BlogControllery-->
         </div>
         <div class="form-group">
             <label for="upload">Choose image:</label>
-            <input type="file" class="form-control" id="upload">
+            <input type="file" class="form-control" id="upload" name="img">
         </div>
         <div class="form-group d-flex justify-content-center m-5">
             <button type="submit" class="btn btn-info rounded">Post</button>

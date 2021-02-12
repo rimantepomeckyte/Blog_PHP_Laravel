@@ -6,7 +6,7 @@ metoda susikurti addPost kaip suprantu BlogControllery-->
         <h2>Edit Post</h2>
     </div>
     @include('blog_theme/_partials/errors')
-    <form method="post" action="/storeupdate/{{$post->id}}">
+    <form method="post" action="/storeupdate/{{$post->id}}" enctype="multipart/form-data">
         {{csrf_field()}}
         {{method_field('PATCH')}}
         <div class="form-group">
@@ -16,7 +16,7 @@ metoda susikurti addPost kaip suprantu BlogControllery-->
         </div>
         <div class="form-group">
             <label for="category">Category</label>
-            <select class="form-control" id="category" name="category">
+            <select class="form-control" id="category" name="category_id">
                 @foreach($options as $option)
                     @if($option->id == $post->category_id)
                         <option value="{{$option->id}}" selected>{{$option->category}}</option>
@@ -32,8 +32,9 @@ metoda susikurti addPost kaip suprantu BlogControllery-->
             <textarea name="body" class="form-control" id="content" rows="5">{{$post->body}}</textarea>
         </div>
         <div class="form-group">
-            <label for="upload">Choose image:</label>
-            <input type="file" class="form-control" id="upload">
+            <label for="upload">Your uploaded photo: <img src="/{{$post->img}}" alt="{{$post->title}}" style="height: 40px"/>
+                ({{ $post->img }})</label>
+            <input type="file" class="form-control" id="upload" name="img" value="{{$post->img}}"/>
         </div>
         <div class="form-group d-flex justify-content-center m-5">
             <button type="submit" class="btn btn-info rounded">Edit post</button>

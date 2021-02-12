@@ -1,4 +1,4 @@
-<header class="masthead" style="background-image: url('img/home-bg.jpg')">
+<header class="masthead" style="background-image: url('https://cdn.pixabay.com/photo/2017/04/05/01/16/food-2203732_960_720.jpg')">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">

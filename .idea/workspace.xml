@@ -19,7 +19,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65f0a8b5-afd6-4e70-92d6-0d13a9f6fac7" name="Default Changelist" comment="" />
+    <list default="true" id="65f0a8b5-afd6-4e70-92d6-0d13a9f6fac7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/byuser.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_08_110145_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_110145_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/asset/img/about-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/img/about-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/asset/img/contact-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/img/contact-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/asset/img/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/asset/img/post-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/img/post-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/asset/img/post-sample-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/img/post-sample-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/_partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/_partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/_partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/_partials/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/pages/add-post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/add-post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/pages/bycategory.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/bycategory.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/pages/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/pages/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,6 +164,7 @@
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1o0hR6b94h4vdTfKLyrGZ4O2FaE" />
@@ -145,18 +175,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\blog\resources\views" />
+      <recent name="C:\Users\User\blog\resources\views\blog_theme\pages" />
+      <recent name="C:\Users\User\blog\public" />
+      <recent name="C:\Users\User\blog\resources\views\blog_theme" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\blog\resources" />
       <recent name="C:\Users\User\blog\resources\views\blog_theme\_partials" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\blog\public" />
-      <recent name="C:\Users\User\blog\resources\views\blog_theme" />
     </key>
   </component>
   <component name="RunManager">
@@ -181,7 +213,12 @@
       <workItem from="1612899953044" duration="8551000" />
       <workItem from="1612942586712" duration="21748000" />
       <workItem from="1612975320728" duration="1050000" />
-      <workItem from="1612977865832" duration="3684000" />
+      <workItem from="1612977865832" duration="37016000" />
+      <workItem from="1613112199096" duration="42000" />
+      <workItem from="1613113507434" duration="196000" />
+      <workItem from="1613114238811" duration="346000" />
+      <workItem from="1613115539025" duration="14000" />
+      <workItem from="1613120875738" duration="11898000" />
     </task>
     <servers />
   </component>
@@ -225,5 +262,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="694" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612522788843" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

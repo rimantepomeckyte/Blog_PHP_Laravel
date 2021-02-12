@@ -25,4 +25,8 @@ Route::post('/cat', 'CategoryController@cat');
 Route::get('/categories-list', 'CategoryController@showCategories');
 Route::get('/delete/category/{category}', 'CategoryController@delete');
 Route::get('/category/{category}', 'CategoryController@showPostsByCategory');
+Route::get('/user/{user}', 'BlogController@showPostsByUser');
 
+Auth::routes();
+
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');

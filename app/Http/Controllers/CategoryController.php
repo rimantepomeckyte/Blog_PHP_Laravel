@@ -39,7 +39,9 @@ class CategoryController extends Controller
     public function showPostsByCategory(Category $category){
         $filteredPosts = DB::table('posts')
             ->join('categories', 'categories.id', '=','posts.category_id')
-            ->select('*')
+            ->join('users', 'posts.user_id', '=', 'users.id')
+            ->select('posts.id', 'posts.title', 'posts.body', 'posts.category_id', 'posts.user_id', 'posts.created_at',
+            'categories.category', 'users.name')
             ->where('categories.id', $category->id)
             ->paginate(8);
        // dd($filteredPosts);

@@ -45,7 +45,7 @@
                         <p class="text-secondary font-italic">{{Carbon\Carbon::parse($comment->created_at)->diffForHumans()}}</p>
                         <p>{{$comment->comment}}</p></div>
                     <hr/>
-                @endif
+
             @endforeach
 
         </div>

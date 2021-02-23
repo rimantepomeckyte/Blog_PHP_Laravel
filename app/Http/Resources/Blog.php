@@ -22,7 +22,7 @@ class Blog extends JsonResource
             'created_at' => (string) $this->created_at,
             'updated_at' => (string) $this->update_at,
             'user' => $this->user,
-            'comments' => $this->comment
+            'comments' => $this->comments //desineje is santykiu, kaireje API atsispindi
         ];
     }
 }

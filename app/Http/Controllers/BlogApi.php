@@ -13,7 +13,7 @@ class BlogApi extends Controller
     }
 
     public function index(){
-        return Blog::collection(Post::with('comments')->get());
+        return Blog::collection(Post::with(['comments', 'category'])->get());
     }
 
     public function show(Post $id){

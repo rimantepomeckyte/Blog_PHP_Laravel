@@ -27,6 +27,7 @@
 
 <!-- Custom scripts for this template -->
 <script src="{{URL::asset('js/clean-blog.min.js')}}"></script>
+<script src="https://kit.fontawesome.com/8305e96607.js" crossorigin="anonymous"></script>
 
 </body>
 

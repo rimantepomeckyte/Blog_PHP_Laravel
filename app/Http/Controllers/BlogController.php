@@ -67,7 +67,7 @@ class BlogController extends Controller
             ->select('categories.category', 'users.name')
             ->where('posts.id', $post->id)
             ->get();
-
+    //dd($post->comments);
         return view('blog_theme.pages.post', compact('post', 'additional'));
     }
 

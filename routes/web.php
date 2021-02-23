@@ -26,6 +26,9 @@ Route::get('/categories-list', 'CategoryController@showCategories');
 Route::get('/delete/category/{category}', 'CategoryController@delete');
 Route::get('/category/{category}', 'CategoryController@showPostsByCategory');
 Route::get('/user/{user}', 'BlogController@showPostsByUser');
+Route::post('/addComment', 'CommentController@addComment');
+
+
 
 Auth::routes();
 
